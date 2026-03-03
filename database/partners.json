@@ -1,0 +1,34 @@
+[
+    {
+        "name": "Scalda",
+        "logo_url": "../project-logos/Scalda.png"
+    },
+    {
+        "name": "Oranjeschool",
+        "logo_url": "../project-logos/Oranjeschool.png"
+    },
+    {
+        "name": "Lego League",
+        "logo_url": "../project-logos/Lego%20League.png"
+    },
+    {
+        "name": "Laureyn",
+        "logo_url": "../project-logos/Laureyn.png"
+    },
+    {
+        "name": "Landschaapbeheer Zeeland",
+        "logo_url": "../project-logos/Landschaapbeheer%20Zeeland.png"
+    },
+    {
+        "name": "Gemeente Terneuzen",
+        "logo_url": "../project-logos/Gemeente%20Terneuzen.png"
+    },
+    {
+        "name": "Elevantio",
+        "logo_url": "../project-logos/Elevantio.png"
+    },
+    {
+        "name": "Dow",
+        "logo_url": "../project-logos/Dow.png"
+    }
+]

@@ -1,0 +1,25 @@
+{
+  "name": "tnz-wandelbos-novaminds",
+  "version": "1.0.0",
+  "description": "Eenvoudige website in PHP, Tailwind CSS en JavaScript met direct leesbare historische informatie per locatie.",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "tailwindcss -i ./assets/css/tailwind.input.css -o ./assets/css/tailwind.css --minify",
+    "watch:css": "tailwindcss -i ./assets/css/tailwind.input.css -o ./assets/css/tailwind.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://shoorman@bitbucket.org/delphinitysd/tnz-wandelbos-novaminds.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://bitbucket.org/delphinitysd/tnz-wandelbos-novaminds/issues"
+  },
+  "homepage": "https://bitbucket.org/delphinitysd/tnz-wandelbos-novaminds#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}
