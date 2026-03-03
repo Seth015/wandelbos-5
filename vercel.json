@@ -1,0 +1,29 @@
+{
+  "functions": {
+    "api/**/*.php": {
+      "runtime": "vercel-php@0.7.1"
+    }
+  },
+  "routes": [
+    { "src": "/assets/(.*)", "dest": "/assets/$1" },
+    { "src": "/uploads/(.*)", "dest": "/uploads/$1" },
+    { "src": "/", "dest": "/api/home.php" },
+    { "src": "/index.php", "dest": "/api/home.php" },
+    { "src": "/home.php", "dest": "/api/home.php" },
+    { "src": "/history.php", "dest": "/api/history.php" },
+    { "src": "/locatie.php", "dest": "/api/locatie.php" },
+    { "src": "/locaties.php", "dest": "/api/locaties.php" },
+    { "src": "/locations.php", "dest": "/api/locations.php" },
+    { "src": "/panorama.php", "dest": "/api/panorama.php" },
+    { "src": "/partners.php", "dest": "/api/partners.php" },
+    { "src": "/admin.php", "dest": "/api/admin.php" },
+    { "src": "/admin_locations.php", "dest": "/api/admin_locations.php" },
+    { "src": "/admin_nav.php", "dest": "/api/admin_nav.php" },
+    { "src": "/admin_qrcodes.php", "dest": "/api/admin_qrcodes.php" },
+    { "src": "/admin/index.php", "dest": "/api/admin/index.php" },
+    { "src": "/admin/login.php", "dest": "/api/admin/login.php" },
+    { "src": "/admin/logout.php", "dest": "/api/admin/logout.php" },
+    { "src": "/admin/qrcodes.php", "dest": "/api/admin/qrcodes.php" },
+    { "src": "/(.*)\\.php", "dest": "/api/$1.php" }
+  ]
+}
