@@ -53,10 +53,4 @@ Dit is de samengevoegde versie van beide projectmappen, met `tnz-wandelbos-novam
 - Gebruik in productie bij voorkeur `https://...`.
 - Na aanpassing: open `admin_qrcodes.php` en klik op **Sla op als PNG** om lokale QR-bestanden opnieuw te genereren.
 
-## Productie-ready aandachtspunten
 
-- Gebruik een sterk admin wachtwoord of `ADMIN_PASSWORD_HASH`.
-- Laat `.env` buiten versiebeheer (staat in `.gitignore`).
-- Schakel `display_errors` uit in productie en log naar bestand.
-- Beperk toegang tot `admin.php` via IP allowlist of basic auth op serverniveau.
-- Gebruik HTTPS in productie.
